@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_2ee630e38a2d05db2a218683a5450fe98f7ba55b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_71fb17cc11cf073de1ff70df8cfb0e276ace46fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\YouTubeAndroidPlayerApi_1cf5001ef01d4335d7d03683acdf3847affc4ba0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_00491b83f67b1bdcb74037634628c7d6ba3334c4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_1ad4b36b3792ab69386eb73e0edd05d6b8e0371e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_2569bee69f1d0e1a301cb201378a24437fd17938.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_87b49312f0f128a389275bf3df7ab34bbf7c764c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.6.1_308ec2ad23aa9f181d0b0bfa11bed346c2f64acc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_e1dde5caa149f862772595667e7ba692c4226062.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_1363ff2a1f5e13a42dd569ad5df5c80a4ab28b38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_745bc4dd98b43722bdb057a7469a0ae66a40a33a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.6.1_f6af8b2b7fff26eb5225913071b79e2c2ca617fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.google.firebase\firebase-common\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1ef72e72bc0d05602c366582afa9439f58bb31d6">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\com.google.firebase-firebase-common-9.6.1_a5d7e7497db63ed6fe8d1a034de5bdbe239bcc56.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.6.1_4c8eac274ea973b64c0a6bc5330cb9894668048e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_485e109cdbc300ec352dcb7c4b85a5dc5b4a06ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="eccaaa9ffa6bb4bfbd2e870f01aaf69655d353be">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.6.1_edccb1af7b2846e2925402b401f2210cda5dad85.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_ec442afc89a611f71f76603bd8612edda4b4e6c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_30f92474f7ee5365e172c42e2d502a23f5293daa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_88211682d7c009da718994e2135b13722aa1f27c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.android.support\design\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.2.1_9cc8281eb37c702929f6a8bd1c5b23ddc9c27af6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_b2e82cd825023710a8366fc58d71fe896610a551.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="cc39b4bcc9e7062891db90d5a752fa9e4986f447">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-9.6.1_e193391edd4b7b0d52c22150fae7c2505fd31201.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5931e6bfa0fd931e07caab249e78911d55626a68.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_91f99ebea056e9ffbae0e2d49ca5d4afcb664041.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_68b7dea9d7e33ce133c0cc933da68f2b96533fbb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_2b877a4b62ac540f16e8dfe707307c80837eb71c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_1b34ce9aa5677faa6ccd46f533cfd90071a70b38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_ee07fd067b4add49893a37ae16e668b83e1a7749.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_fa8284017e57c540c7a1be653c0f1b814a87919f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_aba0b2eb93e088db422da9b1d2ddeb13c656b6c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_300c2727de8ed87ba16beeb835d28b95a128e002.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_bf16bf3de68d4449b949f003b02cb54727277051.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="cc39b4bcc9e7062891db90d5a752fa9e4986f447">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-9.6.1_6acb589acf5f605f3dddc2fdb959cc07e902c67b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.6.1_bb7694d95d6896ca537ed29a65bc50f199f67684.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_ae39251e6b2083535642db991c50d02c45c45e11.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_8050cc9719d328f6f3c1755f03837c1e355cee75.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3c4f96ff493456651cc7bdb0b47e10eb25545a16">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\YouTubeAndroidPlayerApi_69f05d03dc39bfe7f0a38d63d6345d668be669ae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="af7582c6b327449c6d32518e6a10307860b7b5d6">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.6.1_88e3378d2b8e8cdc461218f6ca0eaa24f5620f6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_74c400adf45abca6523104a9283c3207e3e2177c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_2da163a76e371eb8f2e915bfc7e38537b4bebb15.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_8a3bf51bc7b940a6ed27b7622708258204283930.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.2.1_2ee2c9c9e7eb325ed083db20cb9b652814e20b19.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\VideoDireitoLibras\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_3e9b8413b75e56ef9ca42ed3c373700824d98ced.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.6.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="4a36600281a648769411ef642c331851732bf29e">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.6.1_7181010c1e46dc29a72e025c5cd8dc04221f238c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="C:\Users\Godzilla Filmes\Documents\Android\DireitoLibras\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_e6a7a8de2e19c342f4ac571671607b88984f9d9a.jar" />
+    </item>
+
+</items>

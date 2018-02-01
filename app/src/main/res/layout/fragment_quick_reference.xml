@@ -1,0 +1,532 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:animateLayoutChanges="true"
+    >
+
+
+    <!-- Tabela com os botoes -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:shrinkColumns="*"
+           >
+
+            <!-- Movimento -->
+
+            <TableRow
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/movement"
+                    android:textSize="@dimen/title_text_size"
+                    android:textStyle="bold"
+                    android:layout_span="2"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    />
+
+            </TableRow>
+
+            <!-- Jumps -->
+            <TableRow
+                android:weightSum="1">
+                 <LinearLayout
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal"
+                     android:layout_weight=".5"
+                  >
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/closemenutab"
+                        android:id="@+id/high_jump_btn"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/hjump"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight=".5
+                    "
+                    >
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/closemenutab"
+                        android:id="@+id/long_jump_btn"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/ljump"
+                        android:gravity="center"
+                        />
+
+                 </LinearLayout>
+            </TableRow>
+
+            <!-- Fall -->
+            <TableRow
+                android:weightSum="1">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight=".5"
+                    >
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/closemenutab"
+                        android:id="@+id/fall_dmg_btn"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/falling"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight=".5"
+                    >
+
+
+
+
+                </LinearLayout>
+            </TableRow>
+
+
+            <!-- Combate -->
+            <TableRow
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/combat"
+                    android:textSize="@dimen/title_text_size"
+                    android:textStyle="bold"
+                    android:layout_span="2"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    />
+
+            </TableRow>
+
+            <!-- Grapple e shove -->
+            <TableRow
+                android:weightSum="1">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight=".5"
+                    >
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/closemenutab"
+                        android:id="@+id/grapple_btn"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/grapple"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight=".5
+                    "
+                    >
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/closemenutab"
+                        android:id="@+id/shove_btn"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/shove"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Shove Aside e Disarm-->
+            <TableRow
+                android:weightSum="1">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight=".5"
+                    >
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/closemenutab"
+                        android:id="@+id/shove_aside_btn"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/shove_aside"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight=".5
+                    "
+                    >
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/closemenutab"
+                        android:id="@+id/disarm_btn"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/disarm"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+
+            <!--Climb creature e overrun -->
+            <TableRow
+                android:weightSum="1">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight=".5"
+                    >
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/closemenutab"
+                        android:id="@+id/climb_btn"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/climb_bigger_creature"
+                        android:gravity="center_vertical"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight=".5
+                    "
+                    >
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/closemenutab"
+                        android:id="@+id/overrun_btn"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/overrun"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+
+            <!--Tumble e underwater-->
+            <TableRow
+                android:weightSum="1">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight=".5"
+                    >
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/closemenutab"
+                        android:id="@+id/tumble_btn"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/tumble"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight=".5
+                    "
+                    >
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/closemenutab"
+                        android:id="@+id/uw_combat_btn"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/underwater_combat"
+                        android:gravity="center_vertical"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Montado e temp hp-->
+            <TableRow
+                android:weightSum="1">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight=".5"
+                    >
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/closemenutab"
+                        android:id="@+id/mounted_btn"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/mounted"
+                        android:gravity="center_vertical"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight=".5
+                    "
+                    >
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/closemenutab"
+                        android:id="@+id/temp_hp_btn"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/temp_hp"
+                        android:gravity="center"
+                        />
+
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Improvised Weapon -->
+            <TableRow
+                android:weightSum="1">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight=".5"
+                    >
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/closemenutab"
+                        android:id="@+id/improvised_btn"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="@string/improvised_weapon"
+                        android:gravity="center_vertical"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight=".5
+                    "
+                    >
+
+
+
+                </LinearLayout>
+            </TableRow>
+
+            <!-- Misc -->
+            <TableRow
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/misc"
+                    android:textSize="@dimen/title_text_size"
+                    android:textStyle="bold"
+                    android:layout_span="2"
+                    android:layout_weight="1"
+                    android:gravity="left"
+                    />
+
+            </TableRow>
+
+
+
+
+
+
+
+
+
+
+        </TableLayout>
+
+
+    </ScrollView>
+
+    <!-- Popup com as informacoes -->
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/overlayBlocker"
+        android:clickable="true"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:id="@+id/info_frame"
+        android:visibility="gone"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@mipmap/retangulo_arredondado"
+            android:backgroundTint="@color/backgroundColor"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@mipmap/retangulo_arredondado"
+                android:gravity="center"
+                android:textSize="@dimen/title_text_size"
+                android:textStyle="bold"
+                android:text="Placeholder"
+                android:layout_marginBottom="@dimen/text_margin"
+                android:id="@+id/quick_ref_title"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="450dp">
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/text_margin">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/retangulo_arredondado"
+                    android:padding="@dimen/text_margin"
+                    android:text="placeholder"
+                    android:id="@+id/quick_ref_info"
+
+                    />
+
+            </ScrollView>
+            </FrameLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@mipmap/retangulo_arredondado"
+                android:text="@string/back"
+                android:id="@+id/quick_ref_back_btn"/>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

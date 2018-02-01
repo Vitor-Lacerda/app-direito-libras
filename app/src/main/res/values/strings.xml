@@ -1,0 +1,358 @@
+<resources>
+    <string name="app_name">Direito Libras</string>
+    <string name="video0">Direito Libras na TV Justiça</string>
+    <string name="video1">Direito Libras | Deborah Dias</string>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Valores do Treasure Keeper -->
+
+    <string name="title_item_list">List of Magic Items</string>
+    <string name="title_activity_item_detail">ItemDetailActivity</string>
+    <string name="random_treasure">Random Treasure</string>
+    <string name="dmg_book_name">DMG</string>
+    <string name="intent_item_list_key">ITEM_LIST_KEY</string>
+    <string name="intent_item_index_key">ITEM_INDEX_KEY</string>
+    <string name="sort_by_name_button">Sort by name</string>
+    <string name="sort_by_rarity_button">Sort by rarity</string>
+    <string name="sort_by_category_button">Sort by category</string>
+    <string name="armor">Armor</string>
+    <string name="potion">Potion</string>
+    <string name="ring">Ring</string>
+    <string name="rod">Rod</string>
+    <string name="scroll">Scroll</string>
+    <string name="staff">Staff</string>
+    <string name="wand">Wand</string>
+    <string name="weapon">Weapon</string>
+    <string name="wondrous">Wondrous</string>
+    <string name="common">Common</string>
+    <string name="uncommon">Uncommon</string>
+    <string name="rare">Rare</string>
+    <string name="very_rare">Very Rare</string>
+    <string name="legendary">Legendary</string>
+    <string name="category">Category</string>
+    <string name="rarity">Rarity</string>
+    <string name="clear">Clear</string>
+    <string name="ok">OK</string>
+    <string name="attunement">Attunement</string>
+    <string name="requires">Requires</string>
+    <string name="doesnt_require">Doesn\'t Require</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="group_info">Group Information</string>
+    <string name="enemy_info">Enemy Information</string>
+    <string name="encounter_info">Encounter Information</string>
+    <string name="players">Players:</string>
+    <string name="level">Level:</string>
+    <string name="dif_easy">Easy:</string>
+    <string name="dif_med">Medium:</string>
+    <string name="dif_hard">Hard:</string>
+    <string name="dif_deadly">Deadly:</string>
+    <string name="enemies">Enemies:</string>
+    <string name="cr">CR:</string>
+    <string name="xp">XP:</string>
+    <string name="xpa">Adjusted XP:</string>
+    <string name="difficulty">Difficulty:</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="deadly">Deadly</string>
+    <string name="trivial">Trivial</string>
+    <string name="back">Back</string>
+    <string name="movement">Movement</string>
+
+
+    <string-array name="nav_string_array">
+        <item>Random Treasure</item>
+        <item>Magic Items</item>
+        <item>Quick Reference</item>
+        <item>Encounter Difficulty</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="player_dropdown">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+
+
+    </string-array>
+
+
+    <string-array name="enemy_dropdown">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+    <string-array name="cr_dropdown">
+        <item>0</item>
+        <item>1/8</item>
+        <item>1/4</item>
+        <item>1/2</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+    </string-array>
+
+    <string name="ljump">Long jump</string>
+    <string name="hjump">High jump</string>
+
+    <string name="ljump_info">When you make a long jump, you cover a number of feet up to your Strength score if you move at least 10 feet on foot immedialely before the jump. When you make a standing long jump, you can leap only half that distance. Either way, each foot you clear on the jump costs a foot of movement.\n\n\tThe DM might ask for a DC 10 Strength(Athletics) check to clear an obstacle no taller than a quarter of the jump\'s distance.\n\n\tWhen you land in difficult terrain, you must succeed on a DC 10 Dexterity saving throw or land prone.\n(PHB P.182)</string>
+    <string name="hjump_info">When you make a high jump. you leap
+into the air a number of feet equal to 3 + your Strength
+modifier if you move at least 10 feet on foot immediately
+before the jump. When you make a standing high jump,
+you can jump only half that distance. Either way, each
+foot you clear on the jump costs a foot of movement. In
+some circumstances. your DMmight allow you to make
+a Strength (Athletics) check to jump higher than you
+normally can.\n\n\tYou can extend your arms half your height above
+yourself during the jump. Thus, you can reach above
+you a distance equal to the height of the jump plus 1.5
+times your height.\n(PHB P.182)</string>
+
+    <string name="falling">Falling</string>
+    <string name="fall_info">At the end of a fall, a creature takes 1d6 bludgeoning
+damage for every 10 feet it fell, to a maximum of 20d6.
+The creature lands prone, unless it avoids taking
+damage from the fall.</string>
+
+    <string name="combat">Combat</string>
+    <string name="grapple">Grapple</string>
+    <string name="grapple_info">You can replace one of your attacks with this special attack.\n\nUsing at least one free hand, you try to seize the target
+by making a grapple check, a Strength (Athletics)
+check contested by the target\'s Strength (Athletics) or
+Dexterity (Acrobatics) check (the target chooses the
+ability to use). If you succeed, you subject the target to
+the grappled condition (see appendix A). The condition
+specifies the things that end it, and you can release the
+target whenever you like (no action required).\n\nThe target of your grapple must be no more than one
+size larger than you.\n(PHB P.195)</string>
+    <string name="shove">Shove</string>
+    <string name="shove_info">You can replace one of your attacks with this special attack.\n\nVou make a Strength (Athletics) check contested by the
+target\'s Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use). If you win the contest, you either knock the target prone or push
+it 5 feet away from you.\n\nThe target of your shove must be no more than one size larger than you.\n(PHB P.195)</string>
+    <string name="climb_bigger_creature">Climb bigger creature</string>
+    <string name="climb_creature_info">A suitably large opponent can be
+treated as terrain for the purpose of jumping onto its
+back or clinging to a limb. After making any ability
+checks necessary to get into position and onto the larger
+creature, the smaller creature uses its action to make
+a Strength (Athletics) or Dexterity (Acrobatics) check
+contested by the target\'s Dexterity (Acrobatics) check.
+If it wins the contest, the smaller creature successfully
+moves into the target creature\'s space and clings to its
+body. While in the target\'s space, the smaller creature
+moves with the target and has advantage on attack rolls
+against it.\n\n\tThe smaller creature can move around within the
+larger creature\'s space, treating the space as difficult
+terrain. The larger creature\'s ability to attack the
+smaller creature depends on the smaller creature\'s
+location, and is left to your discretion. The larger
+creature can dislodge the smaller creature as an
+action- knocking it off, scraping it against a wall,
+or grabbing and throwing it- by making a Strength
+(Athletics) check contested by the smaller creature\'s
+Strength (Athletics) or Dexterity (Acrobatics) check.
+The smaller creature chooses which ability to use.\n(DMG P.271)</string>
+    <string name="disarm">Disarm</string>
+    <string name="disarm_info">A creature can use a weapon attack to knock a weapon
+or another item from a target\'s grasp. The attacker
+makes an attack roll contested by the target\'s Strength
+(Athletics) check or Dexterity (Acrobatics) check. If the
+attacker wins the contest, the attack causes no damage
+or other ill effect, but the defender drops the item.\n\n\tThe attacker has disadvantage on its attack roll if
+the target is holding the item with two or more hands.
+The target has advantage on its ability check if it is
+larger than the attacking creature, or disadvantage if it
+is smaller.\n(DMG P.271)</string>
+    <string name="overrun">Overrun</string>
+    <string name="overrun_info">When a creature tries to move through a hostile
+creature\'s space, the mover can try to force its way
+through by overrunning the hostile creature. As an
+action or a bonus action, the mover makes a Strength
+(Athletics) check contested by the hostile creature\'s
+Strength (Athletics) check. The creature attempting the
+overrun has advantage on this check if it is larger than
+the hostile creature, or disadvantage if it is smaller. If
+the mover wins the contest, it can move through the
+hostile creature\'s space once this turn.\n(DMG P.272)</string>
+    <string name="shove_aside">Shove Aside</string>
+    <string name="shove_aside_info">With this option, a creature uses the special shove attack from the Player\'s Handbook to force a target
+to the side, rather than away. The attacker has
+disadvantage on its Strength (Athletics) check when it
+does so. If that check is successful, the attacker moves
+the target 5 feet to a different space within its reach.\n(DMG P.272)</string>
+    <string name="tumble">Tumble</string>
+    <string name="tumble_info">A creature can try to tumble through a hostile creature\'s
+space, ducking and weaving past the opponent. As an
+action or a bonus action, the tumbler makes a Dexterity
+(Acrobatics) check contested by the hostile creature\'s
+Dexterity (Acrobatics) check. If the tumbler wins the
+contest, it can move through the hostile creature\'s space
+once this turn.\n(DMG P.272)</string>
+    <string name="underwater_combat">Underwater combat</string>
+    <string name="under_combat_info">When making a me1ee weapon attack, a creature
+that doesn\'t have a swimming speed (either natural or
+granted by magic) has disadvantage on the attack roll
+unless the weapon is a dagger, javelin, shortsword,
+spear, or trident.\n\n\tA ranged weapon attack automatically misses
+a target beyond the weapon\'s normal range. Even
+against a target within normal range, the attack roll has
+disadvantage unless the weapon is a crossbow, a net, or
+a weapon that is thrown like a javelin (including a spear,
+trident, or dart).\n\n\tCreatures and objects that are fully immersed in
+water have resistance to fire damage.\n(PHB P.198)</string>
+    <string name="mounted">Mounted Combat</string>
+    <string name="mounted_info">Once during your move, you can mount a creature that
+is within 5 feet of you or dismount. Doing so costs an
+amount of movement equal to half your speed.\n\tIf an effect moves your mount against its will while
+you\'re on it, you must succeed on a DC 10 Dexterity
+saving throw or fall off the mount, landing prone in a
+space within 5 feet of it. If you\'re knocked prone while
+mounted, you must make the same saving throw.\n\tIfyour mount is knocked prone, you can use your
+reaction to dismount it as it falls and land on your feet.
+Otherwise, you are dismounted and fall prone in a
+space within 5 feet it.\n\n\tYou
+can either control the mount or allow it to act
+independently. Intelligent creatures, such as dragons,
+act independently.\n\tYou can control a mount only if it has been trained
+to accept a rider.The initiative of a controlled mount changes to match
+yours when you mount it. It moves as you direct it, and
+it has only three action options; Dash, Disengage, and
+Dodge. A controlled mount can move and act even on
+the turn that you mount it.\n\tAn independent mount retains its place in the
+initiative order. Bearing a rider puts no restrictions on
+the actions the mount can take, and it moves and acts
+as it wishes.\n\tIn either case, if the mount provokes an opportunity
+attack while you\'re on it, the attacker can target you
+or the mount.\n(PHB P.198)</string>
+    <string name="temp_hp">Temporary HP</string>
+    <string name="temp_hp_info">When you have temporary hit points and take damage,
+the temporary hit points are lost first, and any leftover
+damage carries over to your normal hit points.\n\tA character can be at full hit
+points and receive temporary hit points.\n\tHealing can\'t restore temporary hit points, and they
+can\'t be added together. If you have temporary hit points
+and receive more of them, you decide whether to keep
+the ones you have or to gain the new ones.\n\tIf you have O hit points, receiving temporary hit points
+doesn\'t restore you to consciousness or stabilize you.They can still absorb damage directed at you while
+you\'re in that state, but only true healing can save you.\n\tUnless a feature that grants you temporary hit points
+has a duration, they last until they\'re depleted or you
+finish a long rest.\n(PHB P.198)</string>
+    <string name="improvised_weapon">Improvised Weapon</string>
+    <string name="improvised_weapon_info">An object that bears no resemblance to a weapon
+deals ld4 damage (the DM assigns a damage type
+appropriate to the object). If a characler uses a ranged
+weapon to make a melee atlack, or throws a melee
+weapon that does not have the thrown property, it also
+deals ld4 damage. An improvised thrown weapon has a
+normal range of 20 feet and a long range of 60 feet.\n(PHB P.148)</string>
+    <string name="misc">Misc</string>
+
+
+
+     <string name="lorem_ipsum">
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ipsum erat, maximus id enim et, cursus ornare massa. Aliquam erat volutpat. Quisque et tincidunt eros. Vivamus commodo dui ex, quis cursus nulla accumsan at. Donec interdum, diam ac commodo ullamcorper, lacus eros viverra ex, at suscipit felis nibh nec mi. Integer dignissim mauris eu finibus molestie. Integer dapibus ligula vel eros varius gravida. Mauris commodo nisl non metus porta efficitur. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus massa velit, venenatis et aliquet ut, ultricies id magna. Donec accumsan felis sit amet commodo dignissim. Nunc consequat purus eu urna pellentesque, vitae pulvinar mauris rutrum. Aenean vel porttitor orci. Donec lobortis, nunc eget iaculis blandit, sapien libero congue enim, quis volutpat nunc purus eu massa. Phasellus fermentum convallis nibh, ut finibus ligula iaculis ut.
+
+Pellentesque condimentum volutpat ligula, non pulvinar magna finibus eget. Aliquam erat volutpat. Ut a cursus odio, a viverra erat. Aenean vel dignissim urna. Ut rutrum ante sed lorem suscipit, ut rutrum nulla vulputate. Duis consectetur erat vel justo laoreet mattis. Integer sollicitudin arcu ac risus tempor, eget consequat lacus accumsan. Cras mauris sapien, laoreet et varius eu, tristique sed ante.
+
+Praesent fringilla, lacus a condimentum volutpat, dui ipsum sodales urna, eu mollis risus quam a lacus. Nam in dolor ornare, imperdiet dui ut, imperdiet tortor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed laoreet sem sed nulla pulvinar, non fringilla mauris vehicula. Nunc sollicitudin feugiat dui sit amet tristique. Donec eget arcu mauris. Ut enim leo, tincidunt eget enim aliquet, vestibulum finibus velit. Sed eget eleifend ante. Nulla id nulla dignissim risus maximus dapibus at sit amet nunc. Nam venenatis eu dui eu dapibus. Integer volutpat urna vitae consequat egestas. Quisque ut eros gravida, volutpat ante sit amet, rutrum ante. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus id fermentum arcu, eget porta sapien. Sed ac ligula eget dui molestie blandit quis vitae nisl.
+
+Duis arcu metus, sollicitudin vitae luctus bibendum, accumsan id nisl. Duis scelerisque est quis ipsum faucibus efficitur. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Pellentesque odio nibh, ultricies vel ante cursus, rhoncus blandit mi. Pellentesque nunc ex, accumsan lobortis sapien vel, convallis cursus urna. Nam porttitor sodales venenatis. Phasellus suscipit, diam semper sagittis elementum, ante dolor rhoncus nisi, et ornare ligula mi id leo. Vivamus tempor, justo quis imperdiet finibus, arcu nisl tempor tortor, ac facilisis sem lorem id mi. Nunc eget enim ac quam placerat viverra sed ut purus. Fusce vitae scelerisque mauris.
+
+Donec sit amet dui vel ex cursus scelerisque. Aliquam at hendrerit erat, et tempor magna. Donec et condimentum dolor. Quisque faucibus tristique ex. Donec quis euismod lorem. Morbi vulputate posuere arcu, eget tristique neque commodo eget. Duis nec sapien in nibh tincidunt aliquam. </string>
+</resources>
