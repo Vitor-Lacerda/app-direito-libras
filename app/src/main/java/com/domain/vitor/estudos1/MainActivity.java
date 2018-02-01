@@ -1,10 +1,12 @@
 package com.domain.vitor.estudos1;
 
+import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.FrameLayout;
 import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.google.android.youtube.player.YouTubeBaseActivity;
@@ -25,10 +27,16 @@ public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.O
     private String videoCode = "";
     private boolean isInitialized = false;
 
+    AnimationDrawable anim;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ImageView teste = (ImageView) findViewById(R.id.teste_anim);
+        teste.setImageResource(R.drawable.animation);
+        anim = (AnimationDrawable)teste.getDrawable();
 
         myGrid = (GridView) findViewById(R.id.grid_video_view);
         myAdapter = new VideoThumbAdapter(this.getBaseContext());
@@ -49,14 +57,17 @@ public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.O
                 else{
                     player.loadVideo(videoCode);
                 }
-
-
-
-
             }
         });
 
 
+
+    }
+
+    @Override
+    public void onWindowFocusChanged (boolean hasFocus){
+        super.onWindowFocusChanged(hasFocus);
+        anim.start();
 
     }
 
@@ -69,7 +80,9 @@ public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.O
         FrameLayout videoFrame = (FrameLayout) findViewById(R.id.video_frame);
         if(videoFrame.getVisibility() == View.VISIBLE){
             videoFrame.setVisibility(View.GONE);
-            player.pause();
+            if(isInitialized) {
+                player.pause();
+            }
         }
         else {
             super.onBackPressed();
