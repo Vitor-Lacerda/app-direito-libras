@@ -7,6 +7,7 @@ import android.widget.AdapterView;
 import android.widget.FrameLayout;
 import android.widget.GridView;
 import android.widget.ImageView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.youtube.player.YouTubeBaseActivity;
@@ -34,9 +35,9 @@ public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.O
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ImageView teste = (ImageView) findViewById(R.id.teste_anim);
+       /* ImageView teste = (ImageView) findViewById(R.id.teste_anim);
         teste.setImageResource(R.drawable.animation);
-        anim = (AnimationDrawable)teste.getDrawable();
+        anim = (AnimationDrawable)teste.getDrawable(); */
 
         myGrid = (GridView) findViewById(R.id.grid_video_view);
         myAdapter = new VideoThumbAdapter(this.getBaseContext());
@@ -49,8 +50,12 @@ public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.O
 
                 FrameLayout videoFrame = (FrameLayout) findViewById(R.id.video_frame);
                 videoFrame.setVisibility(View.VISIBLE);
+
+                TextView txt = (TextView)findViewById(R.id.texto_do_video);
+                txt.setText(myAdapter.getItem(position).getTextoVideo());
+
                 ypv = (YouTubePlayerView)findViewById(R.id.youtube_view);
-                videoCode = myAdapter.getItem(position);
+                videoCode = myAdapter.getItem(position).getCodigoYoutube();
                 if(!isInitialized) {
                     ypv.initialize(YOUTUBE_API_KEY, MainActivity.this);
                 }
@@ -64,12 +69,14 @@ public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.O
 
     }
 
+    /*
     @Override
     public void onWindowFocusChanged (boolean hasFocus){
         super.onWindowFocusChanged(hasFocus);
         anim.start();
 
     }
+    */
 
 
 
