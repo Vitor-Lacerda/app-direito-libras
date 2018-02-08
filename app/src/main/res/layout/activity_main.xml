@@ -8,21 +8,142 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.domain.vitor.estudos1.MainActivity">
+    tools:context="com.domain.vitor.estudos1.MainActivity"
+    android:focusableInTouchMode="true"
+    android:animateLayoutChanges="true">
 
-    <!--
 
-        -->
-    <GridView
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:animateLayoutChanges="true"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:id="@+id/search_layout"
+        android:weightSum="1"
+        >
+
+
+
+        <ImageView
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:src = "@android:drawable/ic_menu_search"
+            android:layout_marginRight="@dimen/text_margin"
+            android:layout_weight="0.1"
+            />
+
+        <EditText
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:id="@+id/grid_search_bar"
+            android:layout_weight="0.8"
+            android:maxLines="1"
+            android:background="@android:drawable/editbox_background"
+            />
+
+
+        <ImageButton
+            android:layout_width="0px"
+            android:layout_height="wrap_content"
+            android:src = "@android:drawable/ic_menu_add"
+            android:layout_weight="0.1"
+            android:id="@+id/btn_abrir_filtros"
+            />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search_layout"
+        android:id="@+id/filter_button_layout"
+        android:orientation="vertical"
+        android:visibility="gone"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/filter_aulas"
+                android:id="@+id/btn_filtro_aulas"
+                android:layout_marginRight="@dimen/text_margin"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/filter_noticias"
+                android:id="@+id/btn_filtro_noticias"
+                android:layout_marginLeft="@dimen/text_margin"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+
+            >
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/filter_processo"
+                android:id="@+id/btn_filtro_processo"
+                android:layout_marginRight="@dimen/text_margin"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/filter_direito"
+                android:id="@+id/btn_filtro_direito"
+                android:layout_marginLeft="@dimen/text_margin"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:id="@+id/grid_video_view"
         android:numColumns="auto_fit"
         android:gravity="center"
         android:stretchMode="columnWidth"
         android:verticalSpacing="20dp"
-        android:horizontalSpacing="10dp">
+        android:horizontalSpacing="10dp"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_below="@id/filter_button_layout"
+        android:focusableInTouchMode="true">
     </GridView>
+
 <!--
     <ImageView
         android:layout_width="wrap_content"
@@ -48,6 +169,7 @@
         android:paddingBottom="@dimen/activity_vertical_margin"
         android:id="@+id/video_frame"
         android:visibility="gone"
+        android:animateLayoutChanges="true"
         >
 
         <LinearLayout

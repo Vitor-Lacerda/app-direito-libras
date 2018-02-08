@@ -2,11 +2,16 @@ package com.domain.vitor.estudos1;
 
 import android.graphics.drawable.AnimationDrawable;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.EditText;
 import android.widget.FrameLayout;
 import android.widget.GridView;
+import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -64,6 +69,84 @@ public class MainActivity extends YouTubeBaseActivity implements YouTubePlayer.O
                 }
             }
         });
+
+        EditText searchBar = (EditText)findViewById(R.id.grid_search_bar);
+        searchBar.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
+
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before, int count) {
+                myAdapter.getFilter().filter(s);
+            }
+
+            @Override
+            public void afterTextChanged(Editable s) {
+
+            }
+        });
+
+        SetButtons();
+
+
+
+    }
+
+    private void SetButtons() {
+        final LinearLayout filterLayout = (LinearLayout)findViewById(R.id.filter_button_layout);
+        ImageButton abrirfiltros = (ImageButton) findViewById(R.id.btn_abrir_filtros);
+        abrirfiltros.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                if(filterLayout.getVisibility() == View.GONE){
+                    filterLayout.setVisibility(View.VISIBLE);
+                }
+                else{
+                    filterLayout.setVisibility(View.GONE);
+                }
+            }
+        });
+
+        ImageButton filtro_aulas = (ImageButton) findViewById(R.id.btn_filtro_aulas);
+        filtro_aulas.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                myAdapter.getFilter().filter("aula");
+                filterLayout.setVisibility(View.GONE);
+
+            }
+        });
+
+        ImageButton filtro_direito = (ImageButton) findViewById(R.id.btn_filtro_direito);
+        filtro_direito.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                myAdapter.getFilter().filter("direito");
+                filterLayout.setVisibility(View.GONE);
+            }
+        });
+
+        ImageButton filtro_processo = (ImageButton) findViewById(R.id.btn_filtro_processo);
+        filtro_processo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                myAdapter.getFilter().filter("processo");
+                filterLayout.setVisibility(View.GONE);
+            }
+        });
+
+        ImageButton filtro_noticias = (ImageButton) findViewById(R.id.btn_filtro_noticias);
+        filtro_noticias.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                myAdapter.getFilter().filter("noticia");
+                filterLayout.setVisibility(View.GONE);
+            }
+        });
+
 
 
 

@@ -6,6 +6,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -23,13 +25,14 @@ import java.util.List;
  * Created by Godzilla Filmes on 01-Feb-18.
  */
 
-public class VideoThumbAdapter extends BaseAdapter {
+public class VideoThumbAdapter extends BaseAdapter implements Filterable {
 
 
 
 
     private Context myContext;
-    private ArrayList<VideoThumb> listaVideos;
+    private ArrayList<VideoThumb> listaVideos, listaOriginal;
+    private VideoFilter filter;
 
     /*
     private Integer[] idsImagemVideos = {R.drawable.thumb_tvjustica, R.drawable.thumb_deborahdias};
@@ -42,6 +45,7 @@ public class VideoThumbAdapter extends BaseAdapter {
 
         myContext = c;
         listaVideos = fazListaDoJson();
+        listaOriginal = listaVideos;
 
 
     }
@@ -56,8 +60,31 @@ public class VideoThumbAdapter extends BaseAdapter {
 
     @Override
     public long getItemId(int position) {
-        return 0;
+        return position;
     }
+
+    public ArrayList<VideoThumb> getDataSource(){
+        return listaVideos;
+    }
+
+
+    public void setDataSource(ArrayList<VideoThumb> dataSource){
+        listaVideos = dataSource;
+        this.notifyDataSetChanged();
+    }
+
+    public ArrayList<VideoThumb> getListaOriginal(){
+        return listaOriginal;
+    }
+
+    @Override
+    public Filter getFilter() {
+        if(filter == null){
+            filter = new VideoFilter(this);
+        }
+        return  filter;
+    }
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
@@ -130,8 +157,52 @@ public class VideoThumbAdapter extends BaseAdapter {
 
     }
 
+    }
+    class VideoFilter extends Filter {
+
+        VideoThumbAdapter myAdapter;
+
+        public VideoFilter(VideoThumbAdapter adapter){
+            myAdapter = adapter;
+        }
 
 
+        @Override
+        protected FilterResults performFiltering(CharSequence constraint) {
+            FilterResults retorno = new FilterResults();
 
+            if(constraint.length() == 0){
+                retorno.values = myAdapter.getListaOriginal();
+                retorno.count = myAdapter.getListaOriginal().size();
+            }
+            else {
+                ArrayList<VideoThumb> filtrados = new ArrayList<VideoThumb>();
+                for(VideoThumb vt:myAdapter.getListaOriginal()){
+                    if(vt.getNomeVideo().toLowerCase().contains(constraint.toString().toLowerCase()) || BuscaPalavrasChave(vt.getPalavrasChave(), constraint.toString())){
+                        filtrados.add(vt);
 
+                    }
+                }
+                retorno.values = filtrados;
+                retorno.count = filtrados.size();
+
+            }
+
+            return retorno;
+        }
+
+        protected boolean BuscaPalavrasChave(String[] palavrasChave, String constraint){
+            for(String s:palavrasChave){
+                if(s.toLowerCase().contentEquals(constraint.toLowerCase())){
+                    return true;
+                }
+            }
+            return false;
+
+        }
+
+        @Override
+        protected void publishResults(CharSequence constraint, FilterResults results) {
+            myAdapter.setDataSource((ArrayList<VideoThumb>) results.values);
+        }
     }

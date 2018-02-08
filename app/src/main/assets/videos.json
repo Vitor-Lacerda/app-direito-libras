@@ -8,7 +8,9 @@
       "palavras_chave":[
         {"palavra":"noticia"},
         {"palavra":"entrevista"},
-        {"palavra":"fernando"}
+        {"palavra":"fernando"},
+        {"palavra":"direito"}
+
       ]
 
 
@@ -22,8 +24,52 @@
         {"palavra":"atleta"},
         {"palavra":"entrevista"},
         {"palavra":"surdolimpiada"},
-        {"palavra":"esporte"}
+        {"palavra":"noticia"},
+        {"palavra":"direito"}
+
+      ]
+    },
+    {
+      "nome":"Rivals of Ixalan Draft #10 / RIX / Magic: The Gathering MTG",
+      "imagemThumb":"thumb_deborahdias",
+      "codigo":"LZ7Oy9fZ4VM",
+      "texto":"Rivals of Ixalan Draft #10 / RIX / Magic: The Gathering MTG - GabySpartz",
+      "palavras_chave":[
+        {"palavra":"magic"},
+        {"palavra":"aleatorio"},
+        {"palavra":"RIX"},
+        {"palavra":"esporte"},
+        {"palavra":"aula"}
+      ]
+    },
+    {
+      "nome":"This Should Be Entertaining // Online Ranked! [DRAGON BALL FIGHTERZ] [#02]",
+      "imagemThumb":"thumb_deborahdias",
+      "codigo":"d7pZxRvL9Mc",
+      "texto":"Ryukahr jogando DBFz",
+      "palavras_chave":[
+        {"palavra":"dragonball"},
+        {"palavra":"videogame"},
+        {"palavra":"aleatorio"},
+        {"palavra":"dbz"},
+        {"palavra":"aula"},
+        {"palavra":"processo"}
+
+      ]
+    },
+    {
+      "nome":"The Break #449 DBFZ L6 Infinity VS LordKnight",
+      "imagemThumb":"thumb_tvjustica",
+      "codigo":"gLoKWfSISAk",
+      "texto":"Partida de dragonball",
+      "palavras_chave":[
+        {"palavra":"dragonball"},
+        {"palavra":"videogame"},
+        {"palavra":"aleatorio"},
+        {"palavra":"noticia"},
+        {"palavra":"processo"}
       ]
     }
+
   ]
 }
