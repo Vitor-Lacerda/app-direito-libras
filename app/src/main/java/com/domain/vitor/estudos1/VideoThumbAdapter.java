@@ -158,6 +158,8 @@ public class VideoThumbAdapter extends BaseAdapter implements Filterable {
     }
 
     }
+
+
     class VideoFilter extends Filter {
 
         VideoThumbAdapter myAdapter;

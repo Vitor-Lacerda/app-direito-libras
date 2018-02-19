@@ -10,7 +10,8 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.domain.vitor.estudos1.MainActivity"
     android:focusableInTouchMode="true"
-    android:animateLayoutChanges="true">
+    android:animateLayoutChanges="true"
+    android:background="@drawable/logo_direitolibras">
 
 
 
